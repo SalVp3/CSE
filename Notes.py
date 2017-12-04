@@ -106,4 +106,15 @@ while a <= 10:
 # random numbers
 
 
-print(random.randint(0, 100))
+
+
+print(1 ==1)
+print(1 != 2)
+print(10 <= 15)
+print(not False)
+# recasting
+
+c = '1'
+print(c == 1)
+print(int(c) == 1)
+print(c == str(1))
