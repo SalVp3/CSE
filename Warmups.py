@@ -6,3 +6,10 @@ def reverse_order():
     first_name = input("first name")
     last_name = input("last name")
     print("%s, %s")
+
+
+#12.5.17
+
+def add_py(name):
+    print("%s.py" % name)
+    print(name + ".py")
