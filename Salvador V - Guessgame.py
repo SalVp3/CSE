@@ -5,15 +5,25 @@ import random
 # 4) add higher and lower statements
 # 5) add 5 guess
 
-number = random.randint(0, 50)
+number = random.randint(1, 10)
 
-if input == (number):
+# print(number)
+
+
+guess = int(input(" "))
+
+print("is the number %s?" % guess)
+
+
+if guess == number:
     print("Correct ")
-elif input < (number):
+
+elif guess < number:
     print("higher")
-elif input > (number):
+
+elif guess > number:
     print("lower")
 
-guess = input(" ")
-print("is the number %s?" % guess)
+
+
 
