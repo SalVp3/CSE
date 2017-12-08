@@ -37,4 +37,11 @@ def repeat(string):
 
 repeat("hi")
 
+#12.8.17
+
+def date(month, day, year):
+    print(month, "/", day, "/", year)
+
+
+print(date(12, 8, 17))
 

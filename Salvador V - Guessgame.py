@@ -5,7 +5,7 @@ import random
 # 4) add higher and lower statements
 # 5) add 5 guess
 
-number = random.randint(1, 10)
+number = random.randint(1, 50)
 
 # print(number)
 
@@ -23,7 +23,4 @@ elif guess < number:
 
 elif guess > number:
     print("lower")
-
-
-
 
