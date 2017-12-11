@@ -7,20 +7,38 @@ import random
 
 number = random.randint(1, 50)
 
+print('''
+Hello welcome to guess game.
+ You have 5 guesses to find the number I have thought.
+  The number is 1 to 50
+''')
 # print(number)
 
-
-guess = int(input(" "))
-
-print("is the number %s?" % guess)
+guesses = 5
+guess = 0
 
 
-if guess == number:
-    print("Correct ")
 
-elif guess < number:
-    print("higher")
 
-elif guess > number:
-    print("lower")
+while guesses > 0 and guess != number:
+    guess = int(input(" "))
 
+    if guess == number:
+        print("Correct ")
+        guesses = -1
+
+    elif guess < number:
+        print("higher")
+        guesses -= 1
+
+    elif guess > number:
+        print("lower")
+        guesses -= 1
+
+if guesses == 0:
+    print("You lost")
+    print("*GAME OVER")
+
+if guesses == -1:
+    print("You won")
+    print("*YOU WIN*")
