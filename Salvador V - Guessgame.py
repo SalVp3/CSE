@@ -11,7 +11,8 @@ print('''
 Hello welcome to guess game.
  You have 5 guesses to find the number I have thought.
   The number is 1 to 50
-''')
+'''
+    )
 # print(number)
 
 guesses = 5
@@ -40,5 +41,4 @@ if guesses == 0:
     print("*GAME OVER")
 
 if guesses == -1:
-    print("You won")
     print("*YOU WIN*")
