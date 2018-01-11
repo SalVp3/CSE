@@ -9,8 +9,6 @@ print(dice1 + dice2)
 number = 7
 money = 15
 
-while money > 0 and number != dice1 + dice2:
-    money = int(number)
 
 
 
@@ -20,4 +18,4 @@ else:
     money -= 1
 
 
-print("You have %s left" % money)
+print("You have $%s left" % money)
