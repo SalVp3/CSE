@@ -2,8 +2,6 @@ import random
 number = 7
 money = 15
 rounds = 0
-highest_money = money
-
 while money > 0:
 
     dice1 = random.randint(1, 6)
@@ -21,4 +19,3 @@ while money > 0:
     rounds += 1
     if money == 0:
         print("You've played %s rounds" % rounds)
-
