@@ -11,8 +11,7 @@ print('''
 Hello welcome to guess game.
  You have 5 guesses to find the number I have thought.
   The number is 1 to 50
-'''
-    )
+''')
 # print(number)
 
 guesses = 5

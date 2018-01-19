@@ -2,6 +2,8 @@ import random
 number = 7
 money = 15
 rounds = 0
+highest_money = 15
+
 while money > 0:
 
     dice1 = random.randint(1, 6)

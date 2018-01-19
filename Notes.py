@@ -57,6 +57,7 @@
 #
 # print_age("John", 15)
 #
+#
 # def f(x):
 #    return x**3 + 4 * x**2 + 7 * x - 4
 #
@@ -107,7 +108,6 @@
 #
 #
 #
-#
 # """print(1 ==1)
 # print(1 != 2)
 # print(10 <= 15)
@@ -120,6 +120,7 @@
 # print(int(c) == 1)
 # print(c == str(1))
 # """
+
 
 # list
 the_count = [1, 2, 3, 4, 5]
@@ -144,9 +145,33 @@ for num in range(len(shopping_list)):
     item = shopping_list[num]
     print("The item at index %d is %s" % (num, item))
 
+
 # turn things into a list
 str1 = "Hello Class!"
 listOne = list(str1)
 print(listOne)
 listOne[11] = '.'
 print(listOne)
+print("".join(listOne))
+
+# add things to a list
+shopping_list.append("cereal")
+print(shopping_list)
+
+# removing things from a list
+# shopping_list.remove("soda")
+# print(shopping_list)
+# shopping_list.pop(0)
+# print(shopping_list)
+
+# the string
+import string
+print(string.ascii_letters)
+print(string.ascii_lowercase)
+print(string.punctuation)
+print(string.digits)
+
+# dealing with strings
+strTwo = "ThIs iS a VeRY oDd sEnTenCE"
+lowercase = strTwo.lower()
+print(lowercase)
