@@ -14,7 +14,7 @@
       <file leaf-file-name="Salvador V- Lucky 7's.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Salvador V- Lucky 7's.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-16">
+            <state relative-caret-position="85">
               <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
@@ -24,8 +24,8 @@
       <file leaf-file-name="Notes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Notes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="162" column="2" lean-forward="false" selection-start-line="162" selection-start-column="2" selection-end-line="162" selection-end-column="2" />
+            <state relative-caret-position="852">
+              <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -34,8 +34,8 @@
       <file leaf-file-name="Salvador Villarreal-Hangman..py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Salvador Villarreal-Hangman..py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="110" lean-forward="false" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
+            <state relative-caret-position="204">
+              <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="Salvador V - Guessgame.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Salvador V - Guessgame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
+            <state relative-caret-position="141">
               <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
@@ -54,7 +54,7 @@
       <file leaf-file-name="Warmups.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Warmups.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="765">
               <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
               <folding />
             </state>
@@ -79,8 +79,8 @@
         <option value="$PROJECT_DIR$/Salvador V - uessgame.py" />
         <option value="$PROJECT_DIR$/Warmups.py" />
         <option value="$PROJECT_DIR$/Salvador V - Guessgame.py" />
-        <option value="$PROJECT_DIR$/Notes.py" />
         <option value="$PROJECT_DIR$/Salvador V- Lucky 7's.py" />
+        <option value="$PROJECT_DIR$/Notes.py" />
         <option value="$PROJECT_DIR$/Salvador Villarreal-Hangman..py" />
       </list>
     </option>
@@ -93,7 +93,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -106,11 +106,25 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CSE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSE" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Salvador V- Lucky 7's.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Salvador V- Lucky 7's">
+  <component name="RunManager" selected="Python.Notes">
     <configuration name="Notes" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -219,9 +233,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Salvador V- Lucky 7's" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Salvador Villarreal-Hangman." />
-        <item index="2" class="java.lang.String" itemvalue="Python.Notes" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Notes" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Salvador V- Lucky 7's" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Salvador Villarreal-Hangman." />
         <item index="3" class="java.lang.String" itemvalue="Python.Salvador V - Guessgame" />
         <item index="4" class="java.lang.String" itemvalue="Python.Warmups" />
       </list>
@@ -243,7 +257,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30126184" sideWeight="0.5146413" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -656,7 +670,7 @@
     <entry file="file://$PROJECT_DIR$/Salvador V - uessgame.py" />
     <entry file="file://$PROJECT_DIR$/Warmups.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="765">
           <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
           <folding />
         </state>
@@ -664,32 +678,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Salvador V - Guessgame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="141">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="162" column="2" lean-forward="false" selection-start-line="162" selection-start-column="2" selection-end-line="162" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Salvador V- Lucky 7's.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
+        <state relative-caret-position="85">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="852">
+          <caret line="177" column="0" lean-forward="true" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Salvador Villarreal-Hangman..py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="110" lean-forward="false" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>

@@ -8,4 +8,6 @@ A general guide for hangman
 
 """
 
-word_bank = ["Spider man", "Hamburgers", "Pluto", "Space Invaders", "YouTube", "The Claw", "Jump to the sky", ]
+word_bank = ["Spider man", "Hamburgers", "Pluto", "Space Invaders", "YouTube", "The Claw", "Meme lord", "High school",
+             "Einstein", "Football"]
+print()
