@@ -18,19 +18,15 @@ guesses = 5
 guess = 0
 
 
-
-
 while guesses > 0 and guess != number:
     guess = int(input(" "))
 
     if guess == number:
         print("Correct ")
         guesses = -1
-
     elif guess < number:
         print("higher")
         guesses -= 1
-
     elif guess > number:
         print("lower")
         guesses -= 1
