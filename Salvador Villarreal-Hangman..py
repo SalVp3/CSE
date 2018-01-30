@@ -8,9 +8,25 @@ A general guide for hangman
 5.Create the win condition
 """
 
-
 count = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-word_bank = ["Spider man", "Hamburgers", "Pluto", "Space Invaders", "YouTube", "The Claw", "Meme lord", "High school",
-             "Einstein", "Football"]
+word_bank = ["spider man", "hamburgers", "pluto", "space invaders", "youtube", "the claw", "meme lord", "high school",
+             "einstein", "football"]
 word = random.choice(word_bank)
 # print(word)
+letters_guessed = [' ']
+guess = ""
+
+
+while guess != "end":
+    output = []
+    for letter in word:
+        if letter in letters_guessed:
+            output.append(letter)
+        else:
+            output.append("*")
+    print("".join(output))
+    guess = input("Guess a letter: ")
+    letters_guessed.append(guess)
+    print("you have guess these letters, %s" % guess)
+while letters_guessed == word:
+    print("end")
