@@ -15,7 +15,7 @@ word = random.choice(word_bank)
 # print(word)
 letters_guessed = [' ']
 guess = ""
-
+guess_left = 7
 
 while guess != "end":
     output = []
@@ -27,6 +27,8 @@ while guess != "end":
     print("".join(output))
     guess = input("Guess a letter: ")
     letters_guessed.append(guess)
-    print("you have guess these letters, %s" % guess)
-while letters_guessed == word:
-    print("end")
+    print("letters guess, %s" % letters_guessed)
+
+    if guess not in word:
+        guess_left -= 1
+    print("you have %s left " % guess_left)
