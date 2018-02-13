@@ -1,17 +1,20 @@
 world_map = {
-    'WESTHOUSE': {
-        'NAME': "West of House",
-        'DESCRIPTION': "You are west of a white house",
+    'RUINS': {
+        'NAME': "Ruins",
+        'DESCRIPTION': "There are piles of stone. It looks a ruin from something big.",
         'PATHS': {
-            'NORTH': 'NORTHHOUSE',
-            'SOUTH': 'SOUTHHOUSE'
+            'NORTH': '1STFOREST',
+            'SOUTH': 'STONEWALL',
+            'EAST': 'SIGN',
+            'WEST': ''
         }
     },
-    'NORTHHOUSE': {
-        'NAME': 'North of House',
-        'DESCRIPTION': "Insert Description here",
+    '1STFOREST': {
+        'NAME': 'Spider forest',
+        'DESCRIPTION': "All you see is trees cover in giant cob webs",
         'PATHS': {
-            'SOUTH': 'WESTHOUSE'
+            'NORTH': 'PIT',
+            'EAST': ''
          }
     },
     'SOUTHHOUSE': {
