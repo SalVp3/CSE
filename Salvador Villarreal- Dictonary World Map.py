@@ -11,7 +11,7 @@ world_map = {
     },
     '1FOREST': {
         'NAME': 'Spider forest',
-        'DESCRIPTION': " You've arrived at the spider forest.",
+        'DESCRIPTION': " You've arrived at the spider forest. You can go north, south, east, and west",
         'PATHS': {
             'NORTH': 'PIT',
             'EAST': 'GRAVE',
@@ -37,7 +37,7 @@ world_map = {
         }
     },
     'POOL': {
-        'NAME': "POOL",
+        'NAME': "Pool",
         'DESCRIPTION': "You've came across a pool. there are paths to the east and south",
         'PATHS': {
             'EAST': 'PIT',
@@ -46,7 +46,7 @@ world_map = {
     },
     'STATUE': {
         'NAME': "Grand Statue",
-        'DESCRIPTION': "You arrive at the grand statue and it holding a sword",
+        'DESCRIPTION': "You arrive at the grand statue and it holding a sword. You can go north or east",
         'PATHS': {
             'NORTH': 'POOL',
             'EAST': '1FOREST'
