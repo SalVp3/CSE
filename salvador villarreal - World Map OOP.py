@@ -14,7 +14,7 @@ class Room(object):
 
 
 # initialize rooms
-ruins = Room("Ruins", 'forest1', 'stone_wall', 'sign', 'garden1', None,
+ruins = Room("Ruins", 'forest1', 'stone_wall', 'sign', 'garden1', 'sword',
              "There are piles of stone. There are paths to the north, south, east, and west")
 forest1 = Room("Spider forest", 'pit', 'ruins', 'grave', 'statue', None,
                "You've arrived at the spider forest. You can go north, south, east, and west.")
@@ -24,7 +24,7 @@ pit = Room('Deep pit', None, 'forest1', None, 'pool', None,
            "You find a giant hole in the ground. There are paths to the south and west")
 pool = Room('Pool', None, 'statue', 'pit', None, None,
             "You've came across a pool. there are paths to the east and south")
-statue = Room('Grand Statue', 'pool', None, 'forest1', None, 'sword',
+statue = Room('Grand Statue', 'pool', None, 'forest1', None, 'golden sword',
               "You arrive at the grand statue and it holding a sword. You can go north or east")
 grave = Room('Grave Yard', None, None, None, 'forest1', 'shield',
              "you enter a misty grave yard, you see a shield. You can only go west.")
